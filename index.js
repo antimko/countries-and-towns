@@ -6,7 +6,7 @@ const cors = require('cors');
 const express = require('express');
 const app = express();
 const PORT = 4000;
-
+console.log(process.env.MONGO_CONNECT_STIRNG);
 //prisijungimas prie duomenu bazes
 mongoose
   .connect(process.env.MONGO_CONNECT_STIRNG, {
