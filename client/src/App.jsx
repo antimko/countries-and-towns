@@ -20,7 +20,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <FormOfData miestas='Siauliai' onNewPlace={this.handleNewPlace} />
+        <FormOfData
+          //miestas='Siauliai'
+          onNewPlace={this.handleNewPlace}
+        />
       </div>
     );
   }

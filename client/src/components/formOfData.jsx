@@ -47,7 +47,7 @@ class FormOfData extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit} className='placeholders-container'>
-        <h4>Find by name: {this.props.miestas}</h4>
+        <h4>Write name: {this.props.miestas}</h4>
         <input
           onChange={this.handleTown}
           value={this.state.name}
@@ -56,7 +56,7 @@ class FormOfData extends Component {
           placeholder='name'
           name='name'
         />
-        <h4>Find by continent:</h4>
+        <h4>Write continent:</h4>
         <input
           onChange={this.handleContinent}
           value={this.state.continent}
@@ -65,7 +65,7 @@ class FormOfData extends Component {
           placeholder='continent'
           name='continent'
         />
-        <h4>Find by population:</h4>
+        <h4>Write population:</h4>
         <input
           onChange={this.handlePopulation}
           value={this.state.population}
@@ -74,7 +74,7 @@ class FormOfData extends Component {
           placeholder='population'
           name='population'
         />
-        <h4>Write by type Of Place:</h4>
+        <h4>Write type Of Place:</h4>
         <input
           onChange={this.handleCountry}
           value={this.state.typeOfPlace}

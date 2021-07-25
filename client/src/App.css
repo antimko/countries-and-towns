@@ -1,10 +1,25 @@
 * {
     box-sizing: border-box;
-    background-color: snow
+    background-color: snow;
+
 }
 
 
 
-.container__holder {
-    margin-right: 0.5rem;
+.placeholders-container {
+
+    padding: 2rem;
+    width: auto;
+
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    flex-direction: column;
+    border: 2px solid blue
+}
+
+button {
+    margin-top: 1rem;
 }
